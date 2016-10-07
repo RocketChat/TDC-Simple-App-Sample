@@ -6,9 +6,9 @@
                 "script": "/var/www/sample/bin/www",
                 "exec_interpreter": "node",
                 "watch": true,
-                "port": "3000",
+                "port": "80",
                 "env": {
-			"PORT": 3000
+			"PORT": 80
                 }
         }]
 }
