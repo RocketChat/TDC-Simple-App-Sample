@@ -1,0 +1,14 @@
+{
+        "apps": [{
+                "name": "sample",
+                "max_memory_restart": "1024M",
+                "log_date_format": "YYYY-MM-DD HH:mm:ss SSS",
+                "script": "/var/www/sample/bin/www",
+                "exec_interpreter": "node",
+                "watch": true,
+                "port": "3000",
+                "env": {
+			"PORT": 3000
+                }
+        }]
+}
